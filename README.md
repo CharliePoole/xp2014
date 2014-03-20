@@ -1,4 +1,4 @@
-XP2014-Mobile
-=============
+XP2014
+======
 
-Mobile App for XP2014
+Website ande App for XP2014
