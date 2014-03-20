@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>XP2012</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="icon" href="img/favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="layout.css" />
+<link rel="stylesheet" href="jquery.mobile-1.0rc1.min.css" />
+
+</head>
+
+<body>
+    <div id="conferenceMap" data-role="page">
+
+        <div data-role="header" data-position="fixed">
+
+          <h1><a href="index.html" rel="external" >XP2012</a></h1>
+          <div data-role="fieldcontain">
+
+        <input type="search" name="cerca" id="cerca" value="" />
+    </div>
+
+        </div>
+
+     <div id="mapContainer" class="map-box">
+        <!-- Here the content of the map will be published -->
+      </div>
+
+      <ul id="list-map">
+        <li><a id="route" href="#">Route</a></li>
+        <li><a id="bicycle" href="#">Bicycling</a></li>
+        <li><a id="walking" href="#" class="last">Walking</a></li>
+      </ul>
+
+
+       <div class="map-desc-box">
+       <img src="img/img-malmo.jpg" alt="">
+       <h2>Malmö exhibition center</h2>
+       <p>
+            Address <br>
+            MalmöMässan <br>
+            Mässgatan 6 <br>
+            215 32 Malmö <br>
+       </p>
+       <p>
+           The conference will take place at MalmöMässan, the newly built Malmö exhibition center,only 11 minutes by train from Copenhagen airport.
+           The center has all the facilities we need for a successful conference and is located a short subway ride from the city center.
+           Parking is available for those traveling by car.
+           In the close vicinity of MalmöMässan, you find everything you need. Close by you have both restaurants and ATM machines. In the near future Emporia, the largest mall of Northern Europe, will open next to the venue.
+           Just outside MalmöMässan you find both buses and taxis for comfortable transportation to the city centre. You can also choose to go by the Malmö metro; Citytunneln, to quickly and easily reach the nice pedestrian streets, the beautiful parks, the modern malls and the trendy reastaurant of Malmö. This is also where you find a large variety of the Malmö hotels.
+       </p>
+       <p>
+           Refer the exibition center web site for more detailed information.
+           <a href="http://www.malmomassan.se/en/about-malm%C3%B6m%C3%A4ssan-4473407" target="_blank">Go to the center web site.</a>
+       </p>
+
+       </div>
+
+        <div data-role="footer" data-position="fixed">
+            <ul id="list-footer">
+            <li><a href="bites.html" class="bites-drinks">Bites & Drinks</a></li>
+            <li><a href="socials.html" class="socials">Socials</a></li>
+            <li><a href="info.html" class="info">Info</a></li>
+            <li><a href="settings.html" class="settings">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="geolocationInfo" data-role="popup">
+
+</div>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/mobile/1.0rc1/jquery.mobile-1.0rc1.min.js"></script>
+    <script>window.jQuery.mobile || document.write('<script src="js/libs/jquery.mobile-1.0rc1.min.js"><\/script>')</script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script>window.google.maps || document.write('<script src="js/libs/googleapis.maps.min.js"><\/script>')</script>
+
+    <!-- scripts  script -->
+    <script src="js/plugins.js"></script>
+    <script src="js/maps.js"></script>
+
+
+</body>
+</html>

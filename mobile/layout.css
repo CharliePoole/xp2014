@@ -1,0 +1,491 @@
+.ui-page{
+	background: #0b3660
+}
+.ui-grid-a{
+	background:#0f365e
+}
+
+.ui-header{
+	
+	background: url(img/bg-header.png) repeat-x;
+	height: 45px
+}
+.twtr-widget, .twtr-tweet{
+	border-bottom: none !important
+}
+.twtr-bd{
+	border-top: 1px solid #0b2744 !important;
+	
+}
+.twtr-tweet-wrap {
+	border-bottom: 1px solid #0b2744 !important;
+}
+.twtr-widget {
+	font-family: Helvetica,Arial,sans-serif !important;
+}
+
+.twtr-ft{
+	border: none
+}
+.box, .list-box, .sessions-box, .conference-box, .map-box, .map-desc-box, .sett-box, .map-box-bis, .box-info, .box-social, #tweetfeed{
+
+    background: #071f37;
+	border-radius: 10px;
+  	-khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) inset;
+	margin: 10px;
+
+}
+
+.map-box{
+	height: 240px;
+	background: url(img/toppa-mappa.jpg) no-repeat
+}
+
+.map-box-bis{
+	height: 440px;
+	background: url(img/toppa-mappa.jpg) no-repeat
+	
+}
+.box{
+	text-align: center;
+	
+}
+
+.list-box, .sessions-box, .conferene-box, .map-desc-box{
+	text-align: left
+}
+
+.list-box ul{
+	list-style: none;
+	margin:0;
+	padding:10px;
+}
+
+.list-box ul li{
+	border-bottom: 1px solid #0b2744;
+	margin:0
+}
+
+.list-box ul li a{
+	text-decoration: none
+}
+
+.list-box h2{
+	font-size: 14px;
+	margin:10px 0 0 0
+}
+
+.list-box p{
+	font-size: 12px
+}
+
+h1{
+	height: 32px;
+    left: 0;
+    margin: 5px;
+   	top: 0;
+    width: 55px;
+	float: left
+}
+
+h1 a{
+	background: url(img/logo-xp.png) no-repeat;
+	display: block;
+    height: 32px;
+    text-indent: -9999px;
+    width: 55px;
+	margin: 0 
+}
+
+h2.title-sessions{
+	background: #c27c07;
+	color: #fff;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+  	-khtml-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+	-ms-border-radius: 10px 10px 0 0;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) inset;
+}
+h2.title-sessions-bis{
+	background: #c27c07;
+	color: #fff;
+	font-size: 16px;
+	margin: 0;
+	padding: 10px;
+	box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.6) inset;
+}
+
+
+h2.title-tweet{
+	background:url(img/icona-twitter.png) no-repeat left;
+	color: #fff;
+	font-size: 16px;
+	padding:15px 0 15px 70px;
+	margin: 10px 0 0 10px;
+
+}
+
+h2.title-info{
+	height: 90px;
+    left: 0;
+    margin:0 0 20px 0;
+   	top: 0;
+    width: 100%;
+	float: left
+}
+
+h2.title-info a{
+	background: url("img/logo-gn-studio.png") no-repeat;
+    display: block;
+    height: 90px;
+    text-indent: -9999px;
+    width: 90px;
+	margin: 10px
+}
+
+h3.subtitle-sessions, h3.subtitle-sessions-bis{
+	background: #114476;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px;
+	box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.6) inset
+}
+
+h3.subtitle-sessions{
+	margin: 0
+}
+
+h3.subtitle-sessions-bis{
+	margin: 25px 0 0 0
+}
+
+p.pause{
+	font-size: 14px;
+	color: #ccc;
+	padding: 10px;
+	margin: 0;
+	font-weight: bold
+}
+
+h2 a, h2, .conference-box h2, .conference-box h3, .map-desc-box h2, h2.sett-title, .box-info h3{
+	color:#fff;
+	margin: 0;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+h2{
+	margin: 10px 20px;
+	padding: 0
+}
+.box h2{
+	margin:0;
+}
+
+h2.sett-title{
+	margin-left: 10px;
+	padding-bottom: 0
+}
+
+.sett-box h3{
+	color:#fff;
+	margin: 0;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 14px;
+}
+.sett-box h3.spunta{
+	background:url(img/spunta.png) no-repeat right;
+	margin: 0 10px 0 0
+}
+.sett-box h3.sep{
+	border-bottom: 1px solid #0b2744;
+}
+h2 a{
+	text-align: center;
+	display:block
+}
+
+.conference-box{
+	float: left
+}
+
+.conference-box h2, .conference-box h3, .map-desc-box h2{
+	text-align: left;
+}
+
+.conference-box p, .map-desc-box p, .box-info p, .box-social p, .map-box p, p{
+	font-size: 12px;
+	color: #fff;
+	text-align: justify;
+	margin:0 10px;
+	padding: 5px 0
+}
+
+.conference-box img, .map-desc-box img{
+	border: 1px solid #fff;
+	float: left;
+	margin: 10px 10px 0 10px
+}
+
+.speaker-box, .map-desc-box{
+	clear: both;
+	padding: 10px 0;
+	float: left;
+}
+
+.speaker-box{
+	border-top: 1px solid #0b2744;
+}
+
+.ui-footer{
+	background:url(img/bg-footer.png) repeat-x;
+	height: 55px
+}
+
+ul#list-footer{
+	list-style:none;
+	margin: 5px 10px;
+	padding: 0;
+
+}
+
+ul#list-footer li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 11px
+}
+
+ul#list-footer li a{
+	text-decoration:none;
+	display:block
+}
+
+ul#list-footer li.current{
+	border-radius: 5px;
+  	-khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	background: #0d2136;
+	opacity: 0.8;
+
+}
+a.bites-drinks{
+	background: url(img/bites-drinks.png) no-repeat top;
+	padding: 30px 0 0 0;
+	margin: 0
+}
+
+a.socials{
+	background: url(img/socials.png) no-repeat top;
+	padding: 30px 0 0 0;
+	margin: 0
+}
+
+a.info{
+	background: url(img/info.png) no-repeat top;
+	padding: 30px 0 0 0;
+	margin: 0
+}
+
+a.settings{
+	background: url(img/settings.png) no-repeat top;
+	padding: 30px 0 0 0;
+	margin: 0
+}
+
+.ui-listview{
+	background: none
+}
+.ui-li-count{
+	float: right;
+	background:url(img/arrow.png) no-repeat right;
+	padding: 0 20px 0 0
+}
+
+ul#list-menu, #list-map, ul#day{
+	list-style: none;
+	text-align: center;
+	font-size: 14px;
+	height: 45px;
+}
+
+ul#list-map, ul#day{
+	margin: 0 10px;
+	padding: 0
+}
+
+ul#list-map li a{
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	-khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	background: #040f1b;
+	color: #fff;
+	padding: 0;
+	margin: 0 6px 0 0;
+	text-decoration: none;
+	font-weight: bold;
+	border-top: 1px solid #2f4a68;
+	width: 32%;
+}
+
+ul#list-map li a:hover{
+	color: #2489ce
+}
+
+ul#list-map li a.last{
+	margin-right: 0
+}
+
+ul#list-menu li{
+	float: left;
+	width: 33%;
+	background:url(img/bg-list-menu.png) repeat-x;
+	height: 45px;
+	line-height: 45px
+}
+
+ul#list-menu li.last, ul#day li.last{
+
+	-khtml-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+	-ms-border-radius: 0 10px 10px 0;
+	border-radius: 0 10px 10px 0
+}
+ul#list-menu li.first, ul#day li.first{
+	
+	-khtml-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+	-ms-border-radius: 10px 0 0 10px;
+	border-radius: 10px 0 0 10px
+}
+
+ul#list-menu li.last{
+	width: 34%;
+}
+
+ul#list-menu li a{
+	display: block;
+	color:#fff;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+ul#list-menu li.current{
+	background: none
+}
+
+ul#list-menu li a:hover, ul#list-menu li.current a{
+	color:#2489ce
+}
+
+.ui-collapsible .ui-btn{
+	background: none;
+	clear: both
+}
+.ui-collapsible a, .ui.collapsible a{
+	margin: 0;
+	padding: 0;
+	font-size: 14px
+}
+
+.ui-collapsible h3{
+	font-size: 14px
+}
+
+.ui-collapsible-content ul.agenda{
+	list-style: none;
+	width: 100%;
+	margin:0;
+	padding:0 0 10px 0;
+    border-bottom:1px solid #0b2744;
+}
+
+.ui-collapsible-content ul.agenda li{
+	display: inline-block;
+}
+
+.ui-collapsible-content ul.agenda li a{
+	text-decoration: none
+}
+
+a.add, a.delete{
+	
+	text-decoration: none;
+	font-size: 12px;
+	float: right;
+	margin:0 0 20px 0;
+	text-align: right;
+	display: block;
+
+
+}
+a.delete{
+	background:url(img/delete.png) no-repeat left;
+	padding: 0 0 0 20px
+}
+
+a.add{
+	background:url(img/add.png) no-repeat left;
+	padding:0 0 0 20px;
+	
+}
+
+ul#day{
+	list-style:none;
+	margin: 0 10px;
+	padding: 0;
+	text-align: center
+}
+
+ul#day li{
+
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline;
+	float: left;
+	font-weight: bold;
+	background:url(img/bg-list-menu.png) repeat-x;
+	height: 45px;
+	width: 20%
+}
+
+ul#day li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	line-height: 45px
+}
+
+ul#day li a:hover, ul#day li a.selected{
+	color:#2489ce
+}
+
+p.add-last{
+	height: 25px
+}
+p.delete-this{
+	height: 25px
+}
+
+#tweet-box-header{
+	margin: 0 0 0 10px;
+}
